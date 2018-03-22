@@ -1,5 +1,5 @@
 
-theme: airspace-jekyll
+remote_theme: airspace-jekyll
 
 exclude:
   - "/vendor/"
