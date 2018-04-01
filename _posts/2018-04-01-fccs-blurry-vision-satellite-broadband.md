@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "FCCs Blurry Vision if Satellite Boradband"
+title: "FCCs Blurry Vision if Satellite Broadband"
 author: "Julie Cowie"
 ---
-This <a href="http://www.dailyyonder.com/fccs-blurry-vision-satellite-broadband/2018/03/26/24739/#">article</a>
-sheds some light on the how the FCC views Satellite Broadband.
+The following article sheds some light on the how the FCC views Satellite Broadband.
 
-<a href="http://www.dailyyonder.com/fccs-blurry-vision-satellite-broadband/2018/03/26/24739/#">
-![FCC Satellite Broadband Map]({{ "/img/news/sat-broadband.png" | http://www.dailyyonder.com/fccs-blurry-vision-satellite-broadband/2018/03/26/24739/ }})
-</a>
+[FCC Satellite Broadband Map](http://www.dailyyonder.com/fccs-blurry-vision-satellite-broadband/2018/03/26/24739/)
 
 We agree that satellite is not always as fast as advertised (read the fine print).
 We are working toward a wireless antenna solution that will meet or exceed
