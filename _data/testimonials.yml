@@ -1,16 +1,16 @@
-- name: Rose Ray
-  title: CEO-Themefisher
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Themefisher
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Themefisher
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Themefisher
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
+- name: John Sokel
+  title: Founder - RuralGig
+  testimonial: "I have been tring to get a quality interner service for several years now, and eventually we realized that the big providers are just not going to help us... so we will have to just do it ourselves."
+  image: img/people/johnsokel.png
+- name: Julie Cowie
+  title: Founder - RuralGig
+  testimonial: "The only hurdle to making this a reality is our time and our effort, it's been done in many other town, both commercially and as a community... we can do it too!"
+  image: img/people/juliecowie.png
+- name: Arlo Purvis Coltrain Sokel
+  title: Mascot - RuralGig
+  testimonial: "Once RuralGig goes live, dad can show me all those cat videos he's been telling me about, but says we can't watch them because of our crappy internet."
+  image: img/people/arlo.png
+- name: James Lester
+  title: Wyncroft Winery
+  testimonial: "I run my business out of my home and without proper internet everything is more difficult. This has helped us in so many ways."
   image: img/item-img1.jpg

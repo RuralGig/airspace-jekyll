@@ -31,7 +31,7 @@ h2 {
 }
 h3 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
 }
 p {
   font-size: 15px;
@@ -168,10 +168,21 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item {
   padding-bottom: 30px;
+  background-color: #eee;
 }
 #service .service-item i {
   font-size: 60px;
   color: #4A4656;
+}
+#service .service-item h2 {
+  padding-top: 15px;
+  margin: 0;
+  color: #666;
+}
+#service .service-item h3 {
+  padding-top: 15px;
+  margin: 0;
+  color: #33b;
 }
 #service .service-item h4 {
   padding-top: 20px;
