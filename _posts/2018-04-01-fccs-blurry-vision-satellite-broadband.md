@@ -8,6 +8,6 @@ The following article sheds some light on the how the FCC views Satellite Broadb
 [FCC Satellite Broadband Map](http://www.dailyyonder.com/fccs-blurry-vision-satellite-broadband/2018/03/26/24739/)
 
 We agree that satellite is not always as fast as advertised (read the fine print).
-We are working toward a wireless antenna solution that will meet or exceed
-satellite speeds, more reliable, locally owned.
+We are working toward a wireless solution that will be comperable to satellite speeds,
+more reliable, unlimited, and locally owned.
 
