@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FCCs Blurry Vision if Satellite Broadband"
+title: "FCCs Blurry Vision of Satellite Broadband"
 author: "Julie Cowie"
 ---
 The following article sheds some light on the how the FCC views Satellite Broadband.
