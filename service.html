@@ -33,12 +33,67 @@ permalink: /service/
 <section id="call-to-action">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 ">
         <div class="block">
-          <h2>Not what you are looking for?</h2>
-          <p>If you don't see a plan here that works for you, let us know your needs and we will evaluate
-          what we can do for you.</p>
-          <a href="{{ site.baseurl }}/contact">Contact Us</a>
+          <h2>Coverage Map</h2>
+          <p>The following map depicts the general area that we will be providing service for.
+          However, service availability will vary by visibility to our tower at the center. Locations
+          with a clear line of sight to the tower will be able to receive service even if they reside 
+          outside the circles. The farther out your location is, the less likely service will be available. 
+          We will be focusing on residents within the these coverage circles first and then expand outward.</p>
+          <p>Over time we will be growing and expanding with more locations and more towers. Our goal is
+          to provide service to as many people as possible.</p>
+          <div id="map"></div>
+<script>
+  tower1loc = {lat: 42.501150, lng: -86.210692};
+  var tower1 = [
+    {
+      radius: 8000,
+      color: '#FF0000',
+      opacity: 0.2
+    },
+    {
+      radius: 6400,
+      color: '#FFff00',
+      opacity: 0.2
+    },
+    {
+      radius: 4800,
+      color: '#00FF00',
+      opacity: 0.4
+    }
+  ];
+
+  function initMap() {
+    // Create the map.
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: tower1loc,
+      mapTypeId: 'roadmap'
+    });
+
+    // Construct the circle for each value in citymap.
+    // Note: We scale the area of the circle based on the population.
+    for(var i=0, len=tower1.length; i<len; i++) {
+      var c = tower1[i]
+      // Add the circle for this city to the map.
+      console.log("circle:"+c+":"+tower1.color);
+      var cityCircle = new google.maps.Circle({
+        strokeColor: '#eeeeee',
+        strokeOpacity: 0.5,
+        strokeWeight: 2,
+        fillColor: c.color,
+        fillOpacity: 0.3,
+        map: map,
+        center: tower1loc,
+        radius: c.radius
+      });
+    }
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7uiTOYKJTrEWkZ0gkbZRBnHKPWbh5JH8&callback=initMap">
+</script>
         </div>
       </div>
     </div>
